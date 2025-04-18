@@ -1,0 +1,11 @@
+def rysuj(napis):
+     print((napis*5+"\n")*5)
+
+while x-y
+     napis=input("Jaki napis:")
+     rysuj(napis)
+     dupa=int(input("dupa :"))
+
+
+
+

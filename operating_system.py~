@@ -1,0 +1,12 @@
+import os
+os.makedirs("dupa1",exist_ok=True)
+os.makedirs("dupa1/dupa2",exist_ok=True)
+print(os.getcwd())
+os.chdir("dupa1")
+print(os.getcwd())
+print(os.listdir())
+os.rmdir("dupa2")
+print(os.listdir())
+os.chdir("..")
+print(os.getcwd())
+os.removedirs("dupa1")
