@@ -1,7 +1,0 @@
-count=0
-f1=open("test_file.txt","r")
-lines=f1.readlines()
-for line in lines:
-    count=+1
-    s=("line"+str(count)+": "+line)
-    print(s)

@@ -1,7 +1,0 @@
-def power_of_2(n):
-    power=1
-    for i in range(n):
-        yield power
-        power *=2
-lista=[x for x in power_of_2(10)]
-print(lista)
