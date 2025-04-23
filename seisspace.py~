@@ -1,0 +1,11 @@
+import os, time, datetime
+
+present_time=datetime.datetime.now()
+target_time=datetime.datetime.combine(datetime.date.today()+ \
+            datetime.timedelta(days=1),datetime.time(6,30))
+delta=target_time-present_time
+seconds_remaining=delta.days*86400+delta.seconds
+print(seconds_remaining)
+
+#time.sleep(5)
+#os.system("/apps/scripts/ss5000.8.2 cre")
